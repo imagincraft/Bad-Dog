@@ -1,0 +1,1558 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.20f1 (61c2feb0970d) revision 6406910'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16252 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\G.M.M.P.S\2022.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Companes/ImaginCraft/Projects/Games/Bad Dog
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+2008
+Successfully changed project path to: D:/Companes/ImaginCraft/Projects/Games/Bad Dog
+D:/Companes/ImaginCraft/Projects/Games/Bad Dog
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12656] Host "[IP] 192.168.8.105 [Port] 0 [Flags] 2 [Guid] 3358752558 [EditorId] 3358752558 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SVG06L9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12656] Host "[IP] 192.168.8.105 [Port] 0 [Flags] 2 [Guid] 3358752558 [EditorId] 3358752558 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-SVG06L9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 4.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.20f1 (61c2feb0970d)
+[Subsystems] Discovering subsystems at path D:/G.M.M.P.S/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Companes/ImaginCraft/Projects/Games/Bad Dog/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.6070
+Initialize mono
+Mono path[0] = 'D:/G.M.M.P.S/2022.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'D:/G.M.M.P.S/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/G.M.M.P.S/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/G.M.M.P.S/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/G.M.M.P.S/2022.3.20f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/G.M.M.P.S/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/G.M.M.P.S/2022.3.20f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.005798 seconds.
+- Loaded All Assemblies, in  0.353 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 202 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.552 seconds
+Domain Reload Profiling: 904ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (139ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (552ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (493ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (317ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.636 seconds
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.680 seconds
+Domain Reload Profiling: 1316ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (387ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (681ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (511ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (56.9 KB). Loaded Objects now: 3557.
+Memory consumption went from 127.7 MB to 127.6 MB.
+Total: 3.318100 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.198600 ms MarkObjects: 2.802900 ms  DeleteObjects: 0.083700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 124078.710090 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77afb24d8ea024abc7b7978e917f5f49') in 0.097507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.441935 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0586685d3248c5f86347871e8803a74e') in 0.005390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.912559 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cea9b91df061df8e4e3128acf0037d0a') in 0.007775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.438818 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9b15479eebba013ea6d8962bd5c71c') in 0.004754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.634674 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef514124b1882d5fba9c336fc4b69f6') in 0.006174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 8.651226 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6a741fe7b94bfaad9757f4474fb6fc') in 0.005068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.008808 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4723b001184d137c7db5153df66fad') in 0.006639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.599073 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22743f62808d30d7357f9126c7f5e60a') in 0.044631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.380253 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aff154b1c2156a5df52cbca69478e15') in 0.005434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 6.863021 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d4ddf7022d3e997679d2e4c6287ed0') in 0.005023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.814685 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8956f3171435c9a03bb9b7862df05f50') in 0.005561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 4.445139 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feefb6d86c2a8f4c86b0804c0af2b535') in 0.004485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 4.828387 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e6b9876c2b3423d9893f623695bd3b') in 0.005104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 4.426387 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedd91cf9f01092b79fd4b76d58485eb') in 0.005188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.229102 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721a5bfa182f83cf6924b0df6ee5c4af') in 0.005337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.431940 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56cf7cf8f944eca3ca075ea1f24c01d') in 0.005042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.233225 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e261ef772cc82bef0032b9780f11d3') in 0.004773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 19.086993 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e545cedf94cc9ca747783ea6f3c0dced') in 0.008014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 4.177845 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf82d0f4ac0fbeddce6f3cdef0975e5') in 0.006473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 2.395720 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5ff213ed0f0e61147c2a272c34f809') in 0.004523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 2.849722 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719fadf4f626709482a3f17c49068ab7') in 0.004743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 3.389826 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2469b77480b5a59d8db678d8aaa568db') in 0.010902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 1.598452 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219f15edd374498a3dcad09fe280d5d1') in 0.004363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 4.019603 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70939f1aef351e9e2974bf18b2298ce2') in 0.005125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.399626 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e26efdc9ed70cea43981d0567f58ed') in 0.005205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 2.829828 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58b1465f43f7511ceff178dc6df964b') in 0.004915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 2.815716 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdfd311d893f2584be613647190e01f') in 0.004982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 6.229834 seconds.
+  path: Assets/Game Assets/Place Holders/Flower pot.prefab
+  artifactKey: Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Flower pot.prefab using Guid(886ddaa087589fc479215170eaab1c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817b6e54a13dcde07dcd951bceb1c293') in 0.004852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 20.001382 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484e9ae76414a420df71a678f3bd8987') in 0.001289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 9.794586 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dd1f89bb7f0d80d4eec1a68f40112a') in 0.005979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.875575 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c6ae75f8d757f4148f368fad933572') in 0.005246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.816538 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37b05d261f716d21c140075df43c251') in 0.005157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 10.889229 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8f7c26c762fe85439a7333e503bfc0') in 0.077270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.998552 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9873fa78d4a1dc103d9a7e539063b3ea') in 0.037723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.455601 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d281c6cbd7898c6760bc236d34035fc') in 0.004888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.445127 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca5996f7b8ae5db8bde9f1e7e48a800') in 0.005184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 4.236150 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c474339a4f2be20f4068e96463399725') in 0.005282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.223114 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9382186763741f395449a392b55ddbca') in 0.004776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.610551 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b1b013c60c4b7a11978e4ce9cd2238') in 0.005298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 4.639819 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab15c6d25ba4c54a45978e233ea9b3d') in 0.007401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.622715 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c4168c0ae5eaba0a3ebe9c30d7b24a') in 0.004123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.430777 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff9c972d1cc23691ec6a578b7e5fd0b') in 0.004774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.010518 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003657b73a65d3233a6fe781d8afee5f') in 0.005789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 22.231369 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226e828de361ecd3bd325d7e2e0df866') in 0.004907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.226319 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a298fe1bbd56f4f8db364285b470db63') in 0.004401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.230195 seconds.
+  path: Assets/Game Assets/Place Holders/Sign.prefab
+  artifactKey: Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Sign.prefab using Guid(a4d14a301a3056b4d900259dd0b1e010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40cb16bf489c0cda5bdb7590a4ee92a') in 0.005563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 18.177341 seconds.
+  path: Assets/Game Assets/Place Holders/Box.prefab
+  artifactKey: Guid(e31f03e2662350041b82d229c4d5f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Box.prefab using Guid(e31f03e2662350041b82d229c4d5f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7720cc11f36c5a4ea8d748c4848f28') in 0.001481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 4.188440 seconds.
+  path: Assets/Game Assets/Place Holders/Box.prefab
+  artifactKey: Guid(e31f03e2662350041b82d229c4d5f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Box.prefab using Guid(e31f03e2662350041b82d229c4d5f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf5c1f5ceca3141bff3fc91a10c2c0a') in 0.004900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.008694 seconds.
+  path: Assets/Game Assets/Place Holders/Box.prefab
+  artifactKey: Guid(e31f03e2662350041b82d229c4d5f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Box.prefab using Guid(e31f03e2662350041b82d229c4d5f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ccf205440e938accbe5194067719df') in 0.004951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.788867 seconds.
+  path: Assets/Game Assets/Place Holders/Box.prefab
+  artifactKey: Guid(e31f03e2662350041b82d229c4d5f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Box.prefab using Guid(e31f03e2662350041b82d229c4d5f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b46881407c88ff7bc1ad58bff8ab649') in 0.006823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.635826 seconds.
+  path: Assets/Game Assets/Place Holders/Box.prefab
+  artifactKey: Guid(e31f03e2662350041b82d229c4d5f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Box.prefab using Guid(e31f03e2662350041b82d229c4d5f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2860c32d16af882a88e5ecc9803285') in 0.004050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.615409 seconds.
+  path: Assets/Game Assets/Place Holders/Box.prefab
+  artifactKey: Guid(e31f03e2662350041b82d229c4d5f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Box.prefab using Guid(e31f03e2662350041b82d229c4d5f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ffa041fbd3c6c1948b3a03bf4aebae') in 0.004509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.428021 seconds.
+  path: Assets/Game Assets/Place Holders/Box.prefab
+  artifactKey: Guid(e31f03e2662350041b82d229c4d5f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Box.prefab using Guid(e31f03e2662350041b82d229c4d5f569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456d79722b8a111098c1979c08dc800e') in 0.004222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 17.202249 seconds.
+  path: Assets/Game Assets/Place Holders/Wood plates.prefab
+  artifactKey: Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Wood plates.prefab using Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17203b350531daeaf4cc00fe1c17d77e') in 0.001407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 13.810064 seconds.
+  path: Assets/Game Assets/Place Holders/Wood plates.prefab
+  artifactKey: Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Wood plates.prefab using Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1ffff6587d68eebd4e314ea655eabb') in 0.009375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 7.499938 seconds.
+  path: Assets/Game Assets/Place Holders/Wood plates.prefab
+  artifactKey: Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Wood plates.prefab using Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8847e529a0abc10142d5aaf203228d') in 0.004671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.024663 seconds.
+  path: Assets/Game Assets/Place Holders/Wood plates.prefab
+  artifactKey: Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Wood plates.prefab using Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '349810ac3a9c8fc9f5fe53cc94a80b7c') in 0.005687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.614434 seconds.
+  path: Assets/Game Assets/Place Holders/Wood plates.prefab
+  artifactKey: Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Wood plates.prefab using Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322fb30b72897325da0d7d46669e316d') in 0.004991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.041226 seconds.
+  path: Assets/Game Assets/Place Holders/Wood plates.prefab
+  artifactKey: Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Wood plates.prefab using Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28656b994754a5ce0f1cfbf7a02c1cd3') in 0.004485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 8.431915 seconds.
+  path: Assets/Game Assets/Place Holders/Wood plates.prefab
+  artifactKey: Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Wood plates.prefab using Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64fd4ca085a930ea96e82279903e66a') in 0.004501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.653545 seconds.
+  path: Assets/Game Assets/Place Holders/Wood plates.prefab
+  artifactKey: Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Wood plates.prefab using Guid(57431f776e6ba8a4abe3ff0d9236ee9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccbc4ad283d8bd660d8ded79355394b') in 0.003990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 59.921968 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e962cff71900abc7fffdfd9c90daf5d2') in 0.001579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 7.558880 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2ac431038c666cac07a6c431e6d491') in 0.190943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.827319 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddeff317a2fc6075e1421b40405d9c50') in 0.006465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.061033 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9060b2c27c146f1d6ed2c0e3a4581685') in 0.007248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.807681 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4828ccaad45c89c33b7c254266e2b1') in 0.005298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 7.252432 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f53618543e4fbd583455eabd3421bc') in 0.004480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.800310 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5d156a77ad28a0ef07465d56fae0bca') in 0.005169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.806564 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4858f147f98cdbca770d021f01741f05') in 0.004188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.218781 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac68e30f98b9570845a3d88c7f436755') in 0.003896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 10.680817 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9064601d7770711d365e6ad0cb85a176') in 0.005648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.199556 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f419ee99a87de6348ce36532e902f2dc') in 0.004585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.400681 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2d3158d2a6dcc2d941ae85ccba9579') in 0.004829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.614315 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e551ff01aa59dd9a1d3c31e1f56447c3') in 0.004868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 6.254983 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6287c6e63e44f23df121e839f66fa9') in 0.005115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.810289 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed848bdb0b25391d01682935369a31e') in 0.021952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 2.807876 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5009494abe50445d1b60b8570ddcc826') in 0.004462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 5.845714 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f43e11cd967d00d48fe0848436538a') in 0.006453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 9.895681 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440c4a5de4ed2b1077fb86377ba9fb70') in 0.006065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 2.217145 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81f2686c394d5cce53e30bca5cdecad') in 0.004354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 7.674975 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23486800ffcbc96df232784660ea6ed3') in 0.006046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 3.422253 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a99ac710f59baadc994d5fefc5a1bad') in 0.005947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 1.421907 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25d9bf7633149f31fd15a2b027671c6') in 0.004693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 1.609545 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0921845a46e17753d54d2fdb313f7ef6') in 0.004984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 2.416635 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c2b675fd9454bcee16788712e97082') in 0.004661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 2.217675 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd980d396fb335d288d25f8b60569ad5') in 0.005378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 1.003997 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7534ed35666b5d0652bd999a242029fa') in 0.005278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 2.229230 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259f42de7722a8cbb08d3cc5ced5d0eb') in 0.004992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 2.209537 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14dbe19cb83ad46c97ba8f946bd9996') in 0.005320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 3.633347 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd94d3e9394fc48f303c0013fde3f788') in 0.005511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 4.837398 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36247977f042111f6b279d3801a45b5') in 0.005810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.424902 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f383ebe321f2cfb1670d5e1400aeb7') in 0.020324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 3.588741 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c11eda3468aaeeb5a88eb678c16a1ab9') in 0.044921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 4.396364 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfc757be102b9c8985f94d54256f3b28') in 0.005100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 5.444783 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0575b3c908c7b9a8cd79d892c6b6bbd6') in 0.008191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 6.493643 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b45396b0d44157fca7793101d47bfa8') in 0.006280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 9.268428 seconds.
+  path: Assets/Game Assets/Place Holders/Fences.prefab
+  artifactKey: Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Fences.prefab using Guid(14824be97445d6142a67482c0624d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b057467154ab9046661bd99d77a5fe6') in 0.057601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 476.714227 seconds.
+  path: Assets/Game Assets/Place Holders/Side walk.prefab
+  artifactKey: Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Side walk.prefab using Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9552e80c96aede1f332851e9c8974e4') in 0.002431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 15.656738 seconds.
+  path: Assets/Game Assets/Place Holders/Side walk.prefab
+  artifactKey: Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Side walk.prefab using Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0482caac6ddf785025382384753387') in 0.005417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 10.664144 seconds.
+  path: Assets/Game Assets/Place Holders/Side walk.prefab
+  artifactKey: Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Side walk.prefab using Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b6388f6aca77eb9ff812f459a50bc98') in 0.004366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.323983 seconds.
+  path: Assets/Game Assets/Place Holders/Side walk.prefab
+  artifactKey: Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Side walk.prefab using Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62291a9afb42ca58fbc99ab76b7425f') in 0.005516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.136042 seconds.
+  path: Assets/Game Assets/Place Holders/Side walk.prefab
+  artifactKey: Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Side walk.prefab using Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545080d2282f1c828854aa4bcee4957c') in 0.004753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.452019 seconds.
+  path: Assets/Game Assets/Place Holders/Side walk.prefab
+  artifactKey: Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Side walk.prefab using Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25f80c0c35452952adbcc38af8f0484') in 0.004343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 46.797233 seconds.
+  path: Assets/Game Assets/Place Holders/Main road.prefab
+  artifactKey: Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Main road.prefab using Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a445e76ab7fa92be60e81c048d2b7d') in 0.001552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 7.034117 seconds.
+  path: Assets/Game Assets/Place Holders/Main road.prefab
+  artifactKey: Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Main road.prefab using Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2d2b92778d4c5a3e73f605a8736df8') in 0.240496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.737795 seconds.
+  path: Assets/Game Assets/Place Holders/Main road.prefab
+  artifactKey: Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Main road.prefab using Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2474e255471060e63afbff4b6cc1d6cf') in 0.004442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.680786 seconds.
+  path: Assets/Game Assets/Place Holders/Main road.prefab
+  artifactKey: Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Main road.prefab using Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0003c7750e8f5bec2471c41892f35e') in 0.035235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 5.615168 seconds.
+  path: Assets/Game Assets/Place Holders/Main road.prefab
+  artifactKey: Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Main road.prefab using Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e201c8407ebd02301bb3fbb7ec31f1b4') in 0.005868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.222691 seconds.
+  path: Assets/Game Assets/Place Holders/Main road.prefab
+  artifactKey: Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Main road.prefab using Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9cf6c43c458cb2f5b2ca58f8471bd9') in 0.118641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 8.153565 seconds.
+  path: Assets/Game Assets/Place Holders/Main road.prefab
+  artifactKey: Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Main road.prefab using Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4055c3557444df278ef86ebdca160d') in 0.004093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.231874 seconds.
+  path: Assets/Game Assets/Place Holders/Main road.prefab
+  artifactKey: Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Main road.prefab using Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3786016fa86b6f98250112fc3780b653') in 0.004577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 17.544860 seconds.
+  path: Assets/Game Assets/Place Holders/Side walk.prefab
+  artifactKey: Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Side walk.prefab using Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448e0d0205dce200bf6d368a9ab1931f') in 0.124827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.302139 seconds.
+  path: Assets/Game Assets/Place Holders/Side walk.prefab
+  artifactKey: Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Side walk.prefab using Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1c2a4224e949dfaf2363239835483c') in 0.006432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.044667 seconds.
+  path: Assets/Game Assets/Place Holders/Side walk.prefab
+  artifactKey: Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Side walk.prefab using Guid(8140cb55f834d6040945bd1b1e960c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc15c74a484b86563003fb045e902e48') in 0.074534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 12.828240 seconds.
+  path: Assets/Game Assets/Place Holders/Main road.prefab
+  artifactKey: Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Main road.prefab using Guid(c7e6c14dec3c7d043abc5f2787f890d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbc29e8cc85d55a1ec83a3f37a56f75') in 0.004749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 49.132355 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046542a6347db5550314fd05168fb6db') in 0.001355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 12.932982 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a80cd21ff5da5dd2439008583b61940') in 0.009831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.009589 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d692a7a926302ef5d88842e2e9e5e39') in 0.008694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.416545 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9601d77791cd273461cad31812ec6924') in 0.004094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.419435 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b46efeee4a576737e3b2dd685f58fba') in 0.006098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.632452 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c6d5f98f3c26a5402307de86ac9516') in 0.092761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 22.160024 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b51880d294ddd78ce811ca46022663a') in 0.005204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 4.237010 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4805153d685c0e01149362acdd893f0f') in 0.004731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 4.432035 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25aa0f6178fe6ab71e3e21d2a79dfabb') in 0.018987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.041446 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f979b8c6d7c07168ee05913c6530d36') in 0.035970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.801965 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17c5cd200652d6353a8133809ab31d3') in 0.102958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.123882 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe285fd566f40b94c8715eb78a98aef') in 0.004776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.006892 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362f80213f07d55189671aae70db9446') in 0.125025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.898865 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a79b3625469c0203622b9e54ec49e5') in 0.006958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.622114 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5acccfb428bc1fa52f5817ead0ff2eaa') in 0.044495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 1.764835 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7501eacf2410bd142c3188ccc7172d') in 0.004641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 2.215611 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e9bc04875e6fa66de0a7ef613ebb3f') in 0.037040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 3.391185 seconds.
+  path: Assets/Game Assets/Place Holders/Markets.prefab
+  artifactKey: Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Markets.prefab using Guid(4d7bec1903614444e996c324e010f6e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f4e8dfa973b924751d77912401c40d8') in 0.005135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 588.554524 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c929fa2abea4e3285b465644abaa4b6') in 0.002305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 10.418363 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73268401099f5db5c5cfeb07b1e5a8b2') in 0.079023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.528105 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4b889576068cb30fba763f2abd0eef') in 0.004928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.069374 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9232847d61180cceb8c41a7558569fcd') in 0.004928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.595039 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3dd996405949d53525429d3c68bfe6') in 0.006865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.621444 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfe1591f70308215c813ff2c6135c44') in 0.128920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.307496 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9146adea7b8e0bac011fcaeae5e180f') in 0.005557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 11.133161 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fedc5ecd5424ae2079f07adf82dc51') in 0.004594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 6.034811 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6515a9619123b58bb9e20f960d43321') in 0.004878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.245833 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182b0577b79568583084cbd2c96a7484') in 0.004444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.418679 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62631b7db9bc7dc1f5ef6128b52e4fe5') in 0.005429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 6.669909 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18e8af909e606895c83a24042a50216') in 0.004435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 7.653373 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f785edd560afa043b4357c709dca3cbf') in 0.005115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.678323 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12c059c9afc55aa69414034fe35c94d') in 0.011835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 1144.043280 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45652489810ef10967ac7cb067b9d30a') in 0.006918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 3.024048 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c8919d762b42e8157dbfece18a69a7') in 0.131658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 1.485993 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0eabcc986d8f1aef2bdf31366e10ce8') in 0.004717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 4.109929 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c759e42ae43ce6ad456966ac8ee3ec03') in 0.017016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 4.515528 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca168ef57f9111711ba9f2654435580e') in 0.006602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 2.231072 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895a442bc067f80eb55861dffd2d9141') in 0.038551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 3.980924 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1dd67519a8430a13b569bd2f42445da') in 0.005175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 2.619018 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d223a23dc5372f06adef65ec53c3c09') in 0.004649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 2.009903 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a801367a4eb5fd59e15dfe222c0655') in 0.004356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 2.845399 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0920dddf76501256cfacead03e2412e8') in 0.004758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 2.808927 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a255f8c50f34d1f1f880b88f3983d05') in 0.004462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 1.995929 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c747b3a77fb376d800cb578e57dbdacf') in 0.004749 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 3.952351 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0cb3f05d6fd3304f57c7f83a67f979e') in 0.005700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 1.490238 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec6f8b15e2fdeb9e8b980c3210215a0') in 0.006420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 2.411637 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111936ffd90b9ac4f96237cc4fd90c07') in 0.028592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 3.201069 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdb3effb1e9014c380809acf5040b2e') in 0.026787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 1.577242 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20fb6851c9d51e34e0307d200701e1e') in 0.008519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 2.214889 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba2f37948c54efd0860aea20b37a9b7') in 0.004458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 3.030104 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e1427cd766f65cc759a4194fe8fdcf') in 0.004700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 2.673974 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38dcb98fe7d0f51dfe28cb2ab19a8068') in 0.005788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 4.780923 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea832badcaa5b3f03c3ba40b132f8f67') in 0.004988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 1.621328 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8a6f2a23e3e599a961353738a9c44e') in 0.062071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 3.967710 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead9d4a7b8356695f9c5a6e45fe65e83') in 0.004657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 6.228404 seconds.
+  path: Assets/Game Assets/Place Holders/Bicycle.prefab
+  artifactKey: Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game Assets/Place Holders/Bicycle.prefab using Guid(ba28b1dde4999da42940c594b948afcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8749095f4e1ac454fab547a2909dd2f') in 0.005183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
