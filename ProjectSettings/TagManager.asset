@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Obsticles
+  - Coin
   layers:
   - Default
   - TransparentFX

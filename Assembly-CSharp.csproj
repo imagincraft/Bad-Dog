@@ -89,6 +89,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Packages\LeanTween\Examples\Scripts\PathSplineTrack.cs" />
     <Compile Include="Assets\Packages\LeanTween\Examples\Scripts\PathBezier2d.cs" />
+    <Compile Include="Assets\Scripts\Levels Controller\GanarateRandomLevels.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Packages\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
@@ -112,13 +113,13 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\Packages\LeanTween\Testing\TestingIssue.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+    <Compile Include="Assets\Scripts\Levels Controller\DestroyLevelController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Packages\LeanTween\Testing\PerformanceTests.cs" />
     <Compile Include="Assets\Packages\LeanTween\Testing\TestingRotate.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
-    <Compile Include="Assets\Scripts\Game Controllers\BoundryLevel.cs" />
     <Compile Include="Assets\Scripts\Character Controllers\Player Controller\PlayerAttributes.cs" />
     <Compile Include="Assets\Packages\LeanTween\Framework\LeanTweenExt.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
@@ -130,7 +131,9 @@
     <Compile Include="Assets\Packages\LeanTween\Testing\TestingSceneSwitching.cs" />
     <Compile Include="Assets\Scripts\Game Controllers\Classes\ScoreAttributes.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Scripts\Coin Controller\CoinAttribute.cs" />
     <Compile Include="Assets\Packages\LeanTween\Testing\Testing243.cs" />
+    <Compile Include="Assets\Scripts\Coin Controller\CoinController.cs" />
     <Compile Include="Assets\Packages\LeanTween\Testing\Testing248.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
@@ -148,6 +151,7 @@
     <Compile Include="Assets\Packages\LeanTween\Framework\LeanTween.cs" />
     <Compile Include="Assets\Packages\LeanTween\Testing\TestingDescr.cs" />
     <Compile Include="Assets\Packages\LeanTween\Testing\TestingSequencer.cs" />
+    <Compile Include="Assets\Scripts\GUI Controller\Game Panels Controller\PlayerDeadPanel.cs" />
     <Compile Include="Assets\Packages\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
