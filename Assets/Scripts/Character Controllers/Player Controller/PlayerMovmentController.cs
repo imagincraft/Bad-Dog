@@ -6,6 +6,9 @@ public class PlayerMovmentController : MonoBehaviour
 {
     public PlayerAttributes playerAttributes = new PlayerAttributes();
     public CoinAttribute coinAttribute = new CoinAttribute();
+    [SerializeField] float jumpForse;
+
+    Rigidbody playerRigidbody;
 
 
     float laneWidth = 4.5f;  //? Distance to move left or right
@@ -15,6 +18,7 @@ public class PlayerMovmentController : MonoBehaviour
     void Start()
     {
         targetX = transform.position.x;
+        playerRigidbody = GetComponent<Rigidbody>();
         // PlayerPrefs.DeleteAll();     
 
     }
@@ -68,7 +72,7 @@ public class PlayerMovmentController : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space))
             {
-                if (playerAttributes.isPlayerOnGround)
+                /* if (playerAttributes.isPlayerOnGround)
                 {
                     playerAttributes.isPlayerOnGround = false;
                     // Store the current position
@@ -82,7 +86,10 @@ public class PlayerMovmentController : MonoBehaviour
 
                         //TODO : Set the jump animation
                     });
-                }
+                } */
+
+                    playerRigidbody.AddForce(Vector3.up * jumpForse, ForceMode.Impulse);
+
             }
 
             /* //* Pending decision

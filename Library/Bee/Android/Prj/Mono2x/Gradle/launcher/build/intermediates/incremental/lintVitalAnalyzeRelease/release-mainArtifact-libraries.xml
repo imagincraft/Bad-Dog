@@ -1,0 +1,19 @@
+<libraries>
+  <library
+      name="D:\Companes\ImaginCraft\Projects\Games\Bad Dog\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+      jars="D:\Companes\ImaginCraft\Projects\Games\Bad Dog\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\f80de07f348d3b732795ba861f0071b4\transformed\out\jars\classes.jar;D:\Companes\ImaginCraft\Projects\Games\Bad Dog\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\f80de07f348d3b732795ba861f0071b4\transformed\out\jars\libs\unity-classes.jar"
+      resolved="Gradle:unityLibrary:unspecified"
+      folder="D:\Companes\ImaginCraft\Projects\Games\Bad Dog\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\.transforms\f80de07f348d3b732795ba861f0071b4\transformed\out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="__local_aars__:D:\Companes\ImaginCraft\Projects\Games\Bad Dog\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"
+      jars="D:\Companes\ImaginCraft\Projects\Games\Bad Dog\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar"
+      resolved="__local_aars__:D:\Companes\ImaginCraft\Projects\Games\Bad Dog\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified"/>
+</libraries>
