@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8564120494310374317}
   - component: {fileID: 7695537187376785158}
   - component: {fileID: 8788342265466195729}
+  - component: {fileID: 5141290608817238462}
   m_Layer: 0
   m_Name: uaz_452
   m_TagString: Untagged
@@ -83,6 +84,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5141290608817238462
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785174758958848866}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.018315084, y: 0.0010839296, z: 0.037014518}
+  m_Center: {x: -0.000028840303, y: 0.020449553, z: -0.0014636362}
 --- !u!1 &1691015544225044232
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,9 +280,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6515831720361970345}
+  - component: {fileID: 3800629934589847899}
   m_Layer: 0
   m_Name: van_1_black
-  m_TagString: Untagged
+  m_TagString: Obsticles
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -285,6 +308,27 @@ Transform:
   - {fileID: 8564120494310374317}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!65 &3800629934589847899
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5847698449949364243}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.9060713, y: 1.6623449, z: 4.497154}
+  m_Center: {x: 0.025376141, y: 1.0452151, z: -0.09154892}
 --- !u!1 &6510000537836157287
 GameObject:
   m_ObjectHideFlags: 0
