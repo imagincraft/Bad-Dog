@@ -104,6 +104,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Packages\LeanTween\Framework\LeanAudio.cs" />
     <Compile Include="Assets\Packages\LeanTween\Examples\Scripts\GeneralBasic.cs" />
+    <Compile Include="Assets\Scripts\Character Controllers\Player Controller\CameraFollow.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Packages\LeanTween\Examples\Scripts\LogoCinematic.cs" />
     <Compile Include="Assets\Packages\LeanTween\Examples\Scripts\PathSpline2d.cs" />
@@ -153,6 +154,7 @@
     <Compile Include="Assets\Packages\LeanTween\Testing\TestingSequencer.cs" />
     <Compile Include="Assets\Scripts\GUI Controller\Game Panels Controller\PlayerDeadPanel.cs" />
     <Compile Include="Assets\Packages\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
+    <Compile Include="Assets\Scripts\Levels Controller\ObsticalGenarate.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>

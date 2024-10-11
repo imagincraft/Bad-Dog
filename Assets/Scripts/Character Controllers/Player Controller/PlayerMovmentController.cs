@@ -6,7 +6,7 @@ public class PlayerMovmentController : MonoBehaviour
 {
     public PlayerAttributes playerAttributes = new PlayerAttributes();
     public CoinAttribute coinAttribute = new CoinAttribute();
-    [SerializeField] float jumpForse;
+    // [SerializeField] float jumpForse;
 
     Rigidbody playerRigidbody;
 
@@ -73,44 +73,48 @@ public class PlayerMovmentController : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space))
             {
                 /* if (playerAttributes.isPlayerOnGround)
-                {
-                    playerAttributes.isPlayerOnGround = false;
+              {
+                  playerAttributes.isPlayerOnGround = false;
                     // Store the current position
-                    Vector3 currentPos = transform.position;
+                  Vector3 currentPos = transform.position;
 
                     // Jump 6 units up, and then return back to the original position
-                    LeanTween.moveY(this.gameObject, currentPos.y + 6f, 0.5f).setEaseOutQuad().setOnComplete(() =>
-                    {
+                  LeanTween.moveY(this.gameObject, currentPos.y + 6f, 0.5f).setEaseOutQuad().setOnComplete(() =>
+                  {
                         // Once the jump is completed, move the player back down
-                        LeanTween.moveY(this.gameObject, currentPos.y, 0.5f).setEaseInQuad();
+                      LeanTween.moveY(this.gameObject, currentPos.y, 0.5f).setEaseInQuad();
 
                         //TODO : Set the jump animation
-                    });
-                } */
+                  });
+              } */
 
-                    playerRigidbody.AddForce(Vector3.up * jumpForse, ForceMode.Impulse);
+                if (playerAttributes.isPlayerOnGround)
+                {
+                    playerAttributes.isPlayerOnGround = false;
+                    playerRigidbody.AddForce(Vector3.up * playerAttributes.playerJumpFores, ForceMode.Impulse);
 
+                }
             }
 
             /* //* Pending decision
-          if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow) )
-          {
-              if (!playerAttributes.isPlayerOnGround)
-              {
+        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow) )
+        {
+            if (!playerAttributes.isPlayerOnGround)
+            {
 
                       // Store the current position
-                  Vector3 currentPos = transform.position;
+                Vector3 currentPos = transform.position;
 
                       // Jump 6 units up, and then return back to the original position
-                  LeanTween.moveY(this.gameObject, currentPos.y, 0.5f).setEaseInQuad().setOnComplete(() =>
-                  {
+                LeanTween.moveY(this.gameObject, currentPos.y, 0.5f).setEaseInQuad().setOnComplete(() =>
+                {
                           // Once the jump is completed, move the player back down
                           // LeanTween.moveY(this.gameObject, currentPos.y, 0.5f).setEaseInQuad();
 
                           //TODO : Set the jump animation
-                  });
-              }
-          } */
+                });
+            }
+        } */
         }
     }
     #endregion
