@@ -1,9 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - BusControllerAI
+    - CameraFollow
     - CoinController
+    - DataManager
     - DestroyLevelController
+    - GameManager
     - GanarateRandomLevels
     - PlayerDeadPanel
     - PlayerMovmentController
@@ -105,37 +107,41 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17268}
     - Class: 114
-      Script: {instanceID: 17692}
+      Script: {instanceID: 17402}
     - Class: 114
-      Script: {instanceID: 17900}
+      Script: {instanceID: 17694}
     - Class: 114
-      Script: {instanceID: 18390}
+      Script: {instanceID: 17902}
     - Class: 114
-      Script: {instanceID: 18592}
+      Script: {instanceID: 17932}
     - Class: 114
-      Script: {instanceID: 18918}
+      Script: {instanceID: 18596}
     - Class: 114
-      Script: {instanceID: 18920}
+      Script: {instanceID: 18922}
     - Class: 114
-      Script: {instanceID: 19094}
+      Script: {instanceID: 18924}
     - Class: 114
-      Script: {instanceID: 19100}
+      Script: {instanceID: 19098}
     - Class: 114
-      Script: {instanceID: 19198}
+      Script: {instanceID: 19104}
     - Class: 114
-      Script: {instanceID: 19204}
+      Script: {instanceID: 19202}
     - Class: 114
-      Script: {instanceID: 19456}
+      Script: {instanceID: 19208}
     - Class: 114
-      Script: {instanceID: 20180}
+      Script: {instanceID: 19460}
     - Class: 114
-      Script: {instanceID: 20372}
+      Script: {instanceID: 20184}
     - Class: 114
-      Script: {instanceID: 20734}
+      Script: {instanceID: 20376}
     - Class: 114
-      Script: {instanceID: 20886}
+      Script: {instanceID: 20738}
     - Class: 114
-      Script: {instanceID: 21208}
+      Script: {instanceID: 20890}
+    - Class: 114
+      Script: {instanceID: 21212}
+    - Class: 114
+      Script: {instanceID: 21900}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -287,6 +293,12 @@ ScriptsOnlyBuild:
     className: RawImage
   - hash:
       serializedVersion: 2
+      Hash: 9cd77be138ff96d46edb3bbcc0de4d80
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DataManager
+  - hash:
+      serializedVersion: 2
       Hash: 3b30ae4d54279d6610c73e0676951e76
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -387,6 +399,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: DentedPixel.LTExamples
     className: PathBezier
+  - hash:
+      serializedVersion: 2
+      Hash: 0e0839397365a984168b9451772f06f3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CameraFollow
   - hash:
       serializedVersion: 2
       Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
@@ -1127,6 +1145,12 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: d74b8f741cf5808e0345340d5df81f01
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ObsticalGenarate
+  - hash:
+      serializedVersion: 2
       Hash: 608ab6222239f8478b658313d47b1ad3
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1257,6 +1281,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnScrollRectValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 5d96e7c3b5382027be1a849ce01fd3b9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GameManager
   - hash:
       serializedVersion: 2
       Hash: 830c3b545f6e6ee60a4cebab90516f2c

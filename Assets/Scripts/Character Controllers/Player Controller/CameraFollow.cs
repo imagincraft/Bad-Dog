@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-     Transform player;       // The player's transform
-     Vector3 offset;         // Offset to maintain from the player
-     float smoothSpeed = 0.125f; // How smooth the camera should follow
+    Transform player;       // The player's transform
+    Vector3 offset;         // Offset to maintain from the player
+    // float smoothSpeed = 0.125f; // How smooth the camera should follow
 
     void Start()
     {
@@ -23,7 +23,7 @@ public class CameraFollow : MonoBehaviour
     {
         // Keep the camera's X and Z axis following the player, but lock the Y-axis
         Vector3 newPos = new Vector3(player.position.x + offset.x, transform.position.y, player.position.z + offset.z);
-        
+
         // Update the camera position
         transform.position = newPos;
     }

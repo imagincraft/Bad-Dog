@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class PlayerMovmentController : MonoBehaviour
 {
-    public PlayerAttributes playerAttributes = new PlayerAttributes();
-    public CoinAttribute coinAttribute = new CoinAttribute();
-    // [SerializeField] float jumpForse;
+    PlayerAttributes playerAttributes;
+
+    //* public PlayerAttributes playerAttributes = new PlayerAttributes();
+    CoinAttribute coinAttribute;
+
+    //* public CoinAttribute coinAttribute = new CoinAttribute();
+
 
     Rigidbody playerRigidbody;
 
@@ -19,7 +23,10 @@ public class PlayerMovmentController : MonoBehaviour
     {
         targetX = transform.position.x;
         playerRigidbody = GetComponent<Rigidbody>();
-        // PlayerPrefs.DeleteAll();     
+
+        playerAttributes = GameManager.Instance.dataManager.playerAttributes;
+        coinAttribute = GameManager.Instance.dataManager.coinAttribute;
+
 
     }
 
