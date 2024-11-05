@@ -44,7 +44,7 @@ public class ScoreController : MonoBehaviour
     private void UpdateScore()
     {
         // score = playerMovement.gameObject.transform.position.z * distanceMultiplier;
-        if (!playerAttributes.isPlayerDead)
+        if (!playerAttributes.IsPlayerDead)
         {
 
             scoreAttributes.score += Time.deltaTime * scoreAttributes.scoreRate * scoreAttributes.minScoreMultiplayer;
@@ -66,11 +66,11 @@ public class ScoreController : MonoBehaviour
     //* Function to increase the player's speed and set the next threshold
     private void IncreasePlayerSpeed()
     {
-        if (playerAttributes.playerDefSpeed != playerAttributes.playerMaxSpeed)
+        if (!Mathf.Approximately(playerAttributes.PlayerDefSpeed, playerAttributes.PlayerMaxSpeed))
         {
-            playerAttributes.playerDefSpeed += 2;                                    // Increase player speed by 1
+            playerAttributes.PlayerDefSpeed += 2;                                    // Increase player speed by 1
             scoreAttributes.nextSpeedIncreaseScore += scoreAttributes.speedIncrementScore;  // Set the next score threshold for the speed increase
-            Debug.Log($"Speed increased! Current speed: {playerAttributes.playerDefSpeed}, Next speed increase at: {scoreAttributes.nextSpeedIncreaseScore}");
+            Debug.Log($"Speed increased! Current speed: {playerAttributes.PlayerDefSpeed}, Next speed increase at: {scoreAttributes.nextSpeedIncreaseScore}");
         }
     }
 }

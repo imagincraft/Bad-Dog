@@ -353,6 +353,7 @@
 "Assets/Packages/LeanTween/Testing/TestingRotate.cs"
 "Assets/Packages/LeanTween/Testing/TestingSceneSwitching.cs"
 "Assets/Packages/LeanTween/Testing/TestingSequencer.cs"
+"Assets/Scripts/Character Controllers/Humans Controller AI/RoadCross.cs"
 "Assets/Scripts/Character Controllers/Player Controller/CameraFollow.cs"
 "Assets/Scripts/Character Controllers/Player Controller/PlayerAttributes.cs"
 "Assets/Scripts/Character Controllers/Player Controller/PlayerMovmentController.cs"

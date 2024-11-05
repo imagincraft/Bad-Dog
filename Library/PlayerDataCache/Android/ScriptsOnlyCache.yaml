@@ -9,8 +9,11 @@ ScriptsOnlyBuild:
     - GanarateRandomLevels
     - PlayerDeadPanel
     - PlayerMovmentController
+    - RoadCross
     - ScoreController
     Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.RiderScriptEditorData
+    - Packages.Rider.Editor.RiderScriptEditorPersistedState
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
     - TMPro.TMP_ColorGradient
@@ -141,7 +144,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21212}
     - Class: 114
-      Script: {instanceID: 21900}
+      Script: {instanceID: 21236}
+    - Class: 114
+      Script: {instanceID: 21902}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1133,6 +1138,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
+      Hash: c5b514edc60980f8fcdfce302c13114d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RoadCross
+  - hash:
+      serializedVersion: 2
       Hash: febcfbf0a0d85e37808a3740e3c2c6fa
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1488,4 +1499,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
-  playerPath: C:/Users/User/Desktop/mmm.apk
+  playerPath: C:/Users/User/Desktop/Testing.apk

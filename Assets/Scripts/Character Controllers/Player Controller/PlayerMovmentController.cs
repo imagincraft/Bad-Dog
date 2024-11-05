@@ -44,9 +44,9 @@ public class PlayerMovmentController : MonoBehaviour
     {
 
         //* Move forward constantly
-        if (!playerAttributes.isPlayerDead)
+        if (!playerAttributes.IsPlayerDead)
         {
-            transform.Translate(Vector3.forward * Time.deltaTime * playerAttributes.playerDefSpeed, Space.World);
+            transform.Translate(Vector3.forward * (Time.deltaTime * playerAttributes.PlayerDefSpeed), Space.World);
 
 
 
@@ -73,7 +73,7 @@ public class PlayerMovmentController : MonoBehaviour
             }
 
             Vector3 targetPosition = new Vector3(targetX, transform.position.y, transform.position.z);
-            transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * playerAttributes.playerTurnSpeed);
+            transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * playerAttributes.PlayerTurnSpeed);
 
 
 
@@ -95,10 +95,10 @@ public class PlayerMovmentController : MonoBehaviour
                   });
               } */
 
-                if (playerAttributes.isPlayerOnGround)
+                if (playerAttributes.IsPlayerOnGround)
                 {
-                    playerAttributes.isPlayerOnGround = false;
-                    playerRigidbody.AddForce(Vector3.up * playerAttributes.playerJumpFores, ForceMode.Impulse);
+                    playerAttributes.IsPlayerOnGround = false;
+                    playerRigidbody.AddForce(Vector3.up * playerAttributes.PlayerJumpFores, ForceMode.Impulse);
 
                 }
             }
@@ -130,7 +130,7 @@ public class PlayerMovmentController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            playerAttributes.isPlayerOnGround = true;
+            playerAttributes.IsPlayerOnGround = true;
         }
 
         #region Is Player Dead
@@ -139,7 +139,7 @@ public class PlayerMovmentController : MonoBehaviour
         {
             //TODO make the player dead animation according to the hitting Obstacle 
             //TODO Each dead animation limit to 1.5 Seconds
-            playerAttributes.isPlayerDead = true;
+            playerAttributes.IsPlayerDead = true;
             // Debug.Log($"Player hit : " + collision.gameObject.name);
         }
         #endregion

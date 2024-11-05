@@ -56,7 +56,7 @@ public class PlayerDeadPanel : MonoBehaviour
     void Update()
     {
         //TODO before set the panel check if the player dead animation is Over
-        if (playerAttributes.isPlayerDead)
+        if (playerAttributes.IsPlayerDead)
         {
             playerDeadPanel.SetActive(true);
 
