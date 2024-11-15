@@ -7,8 +7,9 @@ ScriptsOnlyBuild:
     - DestroyLevelController
     - GameManager
     - GanarateRandomLevels
+    - ObjectDrop
     - PlayerDeadPanel
-    - PlayerMovmentController
+    - PlayerMovementController
     - RoadCross
     - ScoreController
     Unity.Rider.Editor.dll:
@@ -136,17 +137,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20184}
     - Class: 114
-      Script: {instanceID: 20376}
+      Script: {instanceID: 20324}
     - Class: 114
-      Script: {instanceID: 20738}
+      Script: {instanceID: 20378}
     - Class: 114
-      Script: {instanceID: 20890}
+      Script: {instanceID: 20740}
     - Class: 114
-      Script: {instanceID: 21212}
+      Script: {instanceID: 20892}
     - Class: 114
-      Script: {instanceID: 21236}
+      Script: {instanceID: 21214}
     - Class: 114
-      Script: {instanceID: 21902}
+      Script: {instanceID: 21238}
+    - Class: 114
+      Script: {instanceID: 21904}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -754,10 +757,10 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
-      Hash: b7f83e58e02fd94eba92350741234bde
+      Hash: 15130015d469a0a571961fb541e90afd
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: PlayerMovmentController
+    className: PlayerMovementController
   - hash:
       serializedVersion: 2
       Hash: c933b590b3badb5918fa01e73cd5cc0c
@@ -1006,6 +1009,12 @@ ScriptsOnlyBuild:
     className: TMP_DigitValidator
   - hash:
       serializedVersion: 2
+      Hash: 948c03c3a5542f36f9ed924098089ca1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ObjectDrop
+  - hash:
+      serializedVersion: 2
       Hash: d82086405f46de14829f6b4bcbdd8fc9
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1138,7 +1147,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMesh
   - hash:
       serializedVersion: 2
-      Hash: c5b514edc60980f8fcdfce302c13114d
+      Hash: 8a84cff5c1ff7f84d5b9ac6cc0c3323c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: RoadCross
@@ -1499,4 +1508,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
-  playerPath: C:/Users/User/Desktop/Testing.apk
+  playerPath: C:/Users/User/Desktop/Testing_Six.apk

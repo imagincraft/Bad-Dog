@@ -82,6 +82,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\Packages\LeanTween\Examples\Scripts\Following.cs" />
+    <Compile Include="Assets\Scripts\Enemy Controlers\ObsticleMove\ObjectDrop.cs" />
     <Compile Include="Assets\Scripts\Enemy Controlers\Cats AI\BusControllerAI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Packages\LeanTween\Framework\LeanAudio.cs" />
@@ -94,7 +95,6 @@
     <Compile Include="Assets\Packages\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
-    <Compile Include="Assets\Scripts\Character Controllers\Humans Controller AI\RoadCross.cs" />
     <Compile Include="Assets\Packages\LeanTween\Testing\TestingIssue.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Scripts\Levels Controller\DestroyLevelController.cs" />
@@ -139,6 +139,7 @@
     <Compile Include="Assets\Scripts\GUI Controller\Game Panels Controller\PlayerDeadPanel.cs" />
     <Compile Include="Assets\Packages\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
     <Compile Include="Assets\Scripts\Levels Controller\ObsticalGenarate.cs" />
+    <Compile Include="Assets\Scripts\Enemy Controlers\Humans Controller AI\RoadCross.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

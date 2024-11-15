@@ -13,6 +13,6 @@ public class BusControllerAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.gameObject.transform.Translate(Vector3.forward * 5 * Time.deltaTime);
+        this.gameObject.transform.Translate(Vector3.forward * (5 * Time.deltaTime));
     }
 }
